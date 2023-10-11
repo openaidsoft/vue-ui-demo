@@ -9,6 +9,22 @@ const router = createRouter({
       component: () => import('@/views/Home.vue')
     },
     {
+      path: '/el',
+      // redirect: '/el/demo',
+      component: () => import('@/views/el/El.vue'),
+      children: [
+        {
+          path: '/el/demo',
+          component: () => import('@/views/el/ElDemo.vue')
+        },
+        {
+          path: '/el/button',
+          component: () => import('@/views/el/ElButton.vue')
+        },
+      ]
+    },
+    // vue 프로젝트 스캐폴드
+    {
       path: '/init',
       name: 'init',
       component: () => import('@/init/views/HomeView.vue')

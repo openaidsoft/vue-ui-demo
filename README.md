@@ -2,8 +2,15 @@
 
 ## Overview
 - 2023-10-11 생성
-- vue용 각종 UI 예제
+- vue용 각종 UI 데모
 
+## logs
+### 2023-10-11
+- 프로젝트 생성
+  - `npm create vue@latest`
+- 스캐폴드 정리
+- `element-plus` 설치/설정
+  - el용 base css를 타 ui 라이브러리와 별도로 로딩하도록 별도 컴포넌트 생성하여 중첩 라우팅하도록 설정
 
 ---
 
