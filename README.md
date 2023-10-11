@@ -14,6 +14,7 @@
 - `ant-design-vue` 설치/설정
   - 컴포넌트 자동 로딩위해 `unplugin-vue-components` 설정
   - `@ant-design/icons-vue` 아이콘 설치
+- `tailwindcss` 설치/설정
 
 ---
 

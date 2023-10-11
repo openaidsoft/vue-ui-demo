@@ -45,6 +45,16 @@ const router = createRouter({
         },
       ]
     },
+    {
+      path: '/tw',
+      component: () => import('@/views/tw/Tw.vue'),
+      children: [
+        {
+          path: '/tw/demo',
+          component: () => import('@/views/tw/TwDemo.vue')
+        },
+      ]
+    },
     // vue 프로젝트 스캐폴드
     {
       path: '/init',
