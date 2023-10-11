@@ -1,10 +1,10 @@
 <script setup>
-
+import MenuDemo from '@/components/el/MenuDemo.vue'
 </script>
 
 <template>
 <div>
-el-demo
+<menu-demo />
 </div>
 </template>
 

@@ -21,6 +21,10 @@ const router = createRouter({
           path: '/el/button',
           component: () => import('@/views/el/ElButton.vue')
         },
+        {
+          path: '/el/table',
+          component: () => import('@/views/el/ElTable.vue')
+        },
       ]
     },
     {
