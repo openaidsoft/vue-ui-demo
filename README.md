@@ -11,6 +11,9 @@
 - 스캐폴드 정리
 - `element-plus` 설치/설정
   - el용 base css를 타 ui 라이브러리와 별도로 로딩하도록 별도 컴포넌트 생성하여 중첩 라우팅하도록 설정
+- `ant-design-vue` 설치/설정
+  - 컴포넌트 자동 로딩위해 `unplugin-vue-components` 설정
+  - `@ant-design/icons-vue` 아이콘 설치
 
 ---
 

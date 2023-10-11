@@ -14,6 +14,14 @@
             <li><router-link to="/el/button">Button</router-link></li>
           </ul>
         </li>
+        <li>
+          Antd
+          <ul class="menu">
+            <li><router-link to="/antd/demo">Demo</router-link></li>
+            <li><router-link to="/antd/button">Button</router-link></li>
+            <li><router-link to="/antd/table">Table</router-link></li>
+          </ul>
+        </li>
       </ul>
     </nav>
   </div>

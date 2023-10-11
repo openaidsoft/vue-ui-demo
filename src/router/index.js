@@ -23,6 +23,24 @@ const router = createRouter({
         },
       ]
     },
+    {
+      path: '/antd',
+      component: () => import('@/views/antd/Antd.vue'),
+      children: [
+        {
+          path: '/antd/demo',
+          component: () => import('@/views/antd/AntdDemo.vue')
+        },
+        {
+          path: '/antd/button',
+          component: () => import('@/views/antd/AntdButton.vue')
+        },
+        {
+          path: '/antd/table',
+          component: () => import('@/views/antd/AntdTable.vue')
+        },
+      ]
+    },
     // vue 프로젝트 스캐폴드
     {
       path: '/init',
