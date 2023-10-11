@@ -1,5 +1,5 @@
 <script setup>
-import MenuDemo from '@/components/antd/MenuDemo.vue'
+import MenuDemo from '@/components/antd/AntdMenuDemo.vue'
 </script>
 
 <template>

@@ -1,5 +1,5 @@
 <script setup>
-import MenuDemo from '@/components/el/MenuDemo.vue'
+import MenuDemo from '@/components/el/ElMenuDemo.vue'
 </script>
 
 <template>
